@@ -5,13 +5,15 @@
 #include <QtWidgets>
 #endif
 
+#include "MyWindow.h"
+
 using namespace std;
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc,argv);
 
-    QWidget *widget = new QWidget;
+    MyWindow *widget = new MyWindow;
 
     widget->show();
 
