@@ -1,5 +1,6 @@
 TEMPLATE = app
-SOURCES += main.cpp
+SOURCES += main.cpp MyWindow.cpp
 contains(QT_VERSION, ^5.*) {
-    QT += widgets
+ QT +=  widgets
 }
+HEADERS += MyWindow.h
